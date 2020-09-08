@@ -25,7 +25,7 @@ def init():
    )
  
    # deserialize the model file back into a pyspark model
-   # read pickled model via pipeline api
+   # read  model via pipeline api
    model = PipelineModel.load(model_path)
  
 # when our server gets new request for classification/prediction/scoring, it calls the model run functionally with the raw_data
