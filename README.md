@@ -14,7 +14,7 @@ for ops.
 5. [Azure KeyVault](https://docs.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?WT.mc_id=article-infoq-adpolak)
 6. [Kubernetes Environment](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough?WT.mc_id=article-infoq-adpolak) / [Azure Container Instance](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-portal?WT.mc_id=article-infoq-adpolak)
 
-
+--------
 
 ## Architecture layers
 * Ingest the data with [Kafka on Azure](https://azure.microsoft.com/en-us/blog/processing-trillions-of-events-per-day-with-apache-kafka-on-azure?WT.mc_id=article-infoq-adpolak)
@@ -26,6 +26,7 @@ for ops.
 
 ![](https://github.com/adipola/ms-build-e2e-ml-bigdata/blob/master/images/diagram.jpg)
 
+---------
 ### Q&A
 If you have questions/concerns or would like to chat, contact us:
 
