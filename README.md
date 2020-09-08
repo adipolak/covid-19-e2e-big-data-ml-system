@@ -1,17 +1,18 @@
 # covid-19-e2e-big-data-ml-system
 Covid-19 End to End Big Data and ML- from ingesting stream to deploying ML model in production 
 
+This is an example of how you can leverage kafka, Apache Spark and Spark mllib to buikd your system to enable machine learning model with big data.
 
-This is an example of how you can leverage Apache Spark with mllib to architect your system to enable machine learning model with big data.
-
+** this doesn't include CLI/Bash/[Powershell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7?WT.mc_id=article-infoq-adpolak)
+for ops.
 
 ## Prerequisites:
 1. [Azure account](https://azure.microsoft.com/en-us/free?WT.mc_id=article-infoq-adpolak)
-2. [Eventhubs](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-create?WT.mc_id=build2020_ca-AML_presentation-adpolak)
+2. [Eventhubs](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-create?WT.mc_id=article-infoq-adpolak)
 3. [Azure Databricks](https://docs.microsoft.com/en-us/azure/azure-databricks/quickstart-create-databricks-workspace-portal?WT.mc_id=article-infoq-adpolak)
 4. [Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-1st-experiment-sdk-setup?WT.mc_id=article-infoq-adpolak)
 5. [Azure KeyVault](https://docs.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?WT.mc_id=article-infoq-adpolak)
-6. Kubernetes Environment / Azure Container Instance
+6. [Kubernetes Environment](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough?WT.mc_id=article-infoq-adpolak) / [Azure Container Instance](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-portal?WT.mc_id=article-infoq-adpolak)
 
 
 
