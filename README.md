@@ -22,7 +22,7 @@ for ops.
 * Enrich the data - in out case we add sentiment analysis based on tweet text
 * Train, evaluate and [register](https://docs.microsoft.com/en-us/azure/databricks/applications/mlflow/?WT.mc_id=e2eml-infoQ-adpolak) machine learning models
 * [Deploy to production](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-and-where?WT.mc_id=e2eml-infoQ-adpolak&tabs=azcli)
-* [Observability and Monitoring] (https://logz.io/blog/azure-monitoring-guide/)
+* [Observability and Monitoring](https://logz.io/blog/azure-monitoring-guide/)
 
 ----------
 
