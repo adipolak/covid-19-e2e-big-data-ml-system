@@ -1,7 +1,6 @@
-# covid-19-e2e-big-data-ml-system
-Covid-19 End to End Big Data and ML- from ingesting stream to deploying ML model in production 
-
-This is an example of how you can leverage kafka, Apache Spark and Spark mllib to build your system and produce machine learning model with big data.
+# COVID-19 End to End Big Data and ML system
+This is an example of how you can build your own Covid-19 End to End Big Data and ML- from ingesting stream to deploying ML model in production 
+leveraging kafka, Apache Spark, Spark mllib and cloud services to build your system and produce machine learning model with big data.
 
 ** this doesn't include CLI/Bash/[Powershell]/yml files(https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7?WT.mc_id=article-infoq-adpolak)
 for ops.
@@ -13,6 +12,7 @@ for ops.
 4. [Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-1st-experiment-sdk-setup?WT.mc_id=article-infoq-adpolak)
 5. [Azure KeyVault](https://docs.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?WT.mc_id=article-infoq-adpolak)
 6. [Kubernetes Environment](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough?WT.mc_id=article-infoq-adpolak) / [Azure Container Instance](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-portal?WT.mc_id=article-infoq-adpolak)
+7.[Cognitive Services](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/quickstarts/python?WT.mc_id=article-infoQ-adpolak) - for enriching tweet data with sentiment
 
 --------
 
