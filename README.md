@@ -2,7 +2,7 @@
 This is an example of how you can build your own Covid-19 End to End Big Data and ML- from ingesting stream to deploying ML model in production 
 leveraging kafka, Apache Spark, Spark mllib and cloud services to build your system and produce machine learning model with big data.
 
-** this doesn't include CLI/Bash/[Powershell]/yml files(https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7?WT.mc_id=article-infoq-adpolak)
+** this doesn't include CLI/Bash/[Powershell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7?WT.mc_id=article-infoq-adpolak)/yml files
 for ops.
 
 ## Prerequisites:
