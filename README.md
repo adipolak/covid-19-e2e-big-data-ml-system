@@ -23,6 +23,16 @@ for ops.
 * Train, evaluate and [register](https://docs.microsoft.com/en-us/azure/databricks/applications/mlflow/?WT.mc_id=e2eml-infoQ-adpolak) machine learning models
 * [Deploy to production](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-and-where?WT.mc_id=e2eml-infoQ-adpolak&tabs=azcli)
 
+----------
+
+This is a simplified diagram that demonstrate a machine learning life cycle, from development to production.
+
+The main drivers for triggering a new machine learning training process are often based on monitoring and observability layers. 
+Three main triggers are:
+
+* Data driven - we detect new variability of data in our systems
+* Scheduled driven - we want to release an updated machine learning model every x days.
+* Metrics driven - error detected - highly dependent on the model itself and our ability to detect wrong prdictions/classifications based on the use case
 
 ![](https://raw.githubusercontent.com/adipola/covid-19-e2e-big-data-ml-system/master/diagrams/ml-cycle.png)
 
