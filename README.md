@@ -3,7 +3,7 @@ Covid-19 End to End Big Data and ML- from ingesting stream to deploying ML model
 
 This is an example of how you can leverage kafka, Apache Spark and Spark mllib to build your system and produce machine learning model with big data.
 
-** this doesn't include CLI/Bash/[Powershell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7?WT.mc_id=article-infoq-adpolak)
+** this doesn't include CLI/Bash/[Powershell]/yml files(https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7?WT.mc_id=article-infoq-adpolak)
 for ops.
 
 ## Prerequisites:
