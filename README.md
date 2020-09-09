@@ -24,7 +24,7 @@ for ops.
 * [Deploy to production](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-and-where?WT.mc_id=e2eml-infoQ-adpolak&tabs=azcli)
 
 
-![](https://github.com/adipola/ms-build-e2e-ml-bigdata/blob/master/images/diagram.jpg)
+![](https://raw.githubusercontent.com/adipola/covid-19-e2e-big-data-ml-system/master/diagrams/ml-cycle.png)
 
 ---------
 ### Q&A
