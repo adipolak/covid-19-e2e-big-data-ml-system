@@ -25,6 +25,7 @@ for ops.
 
 ----------
 
+## ML life cycle from development to production
 This is a simplified diagram that demonstrate a machine learning life cycle, from development to production.
 
 The main drivers for triggering a new machine learning training process are often based on monitoring and observability layers. 
