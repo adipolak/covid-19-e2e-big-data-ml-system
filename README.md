@@ -2,26 +2,26 @@
 This is an example of how you can build your own Covid-19 End to End Big Data and ML- from ingesting stream to deploying ML model in production 
 leveraging kafka, Apache Spark, Spark mllib and cloud services to build your system and produce machine learning model with big data.
 
-** this doesn't include CLI/Bash/[Powershell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7?WT.mc_id=article-infoq-adpolak)/yml files
+** this doesn't include CLI/Bash/[Powershell](https://docs.microsoft.com/powershell/scripting/overview?view=powershell-7%3FWT.mc_id%3Darticle-infoq-adpolak&WT.mc_id=data-0000-adpolak)/yml files
 for ops.
 
 ## Prerequisites:
-1. [Azure account](https://azure.microsoft.com/en-us/free?WT.mc_id=article-infoq-adpolak)
-2. [Eventhubs](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-create?WT.mc_id=article-infoq-adpolak)
-3. [Azure Databricks](https://docs.microsoft.com/en-us/azure/azure-databricks/quickstart-create-databricks-workspace-portal?WT.mc_id=article-infoq-adpolak) with MLFlow
-4. [Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-1st-experiment-sdk-setup?WT.mc_id=article-infoq-adpolak)
-5. [Azure KeyVault](https://docs.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?WT.mc_id=article-infoq-adpolak)
-6. [Kubernetes Environment](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough?WT.mc_id=article-infoq-adpolak) / [Azure Container Instance](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-portal?WT.mc_id=article-infoq-adpolak)
-7.[Cognitive Services](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/quickstarts/python?WT.mc_id=article-infoQ-adpolak) - for enriching tweet data with sentiment
+1. [Azure account](https://azure.microsoft.com/free?WT.mc_id=data-0000-adpolak)
+2. [Eventhubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-create?WT.mc_id=data-0000-adpolak)
+3. [Azure Databricks](https://docs.microsoft.com/azure/azure-databricks/quickstart-create-databricks-workspace-portal?WT.mc_id=data-0000-adpolak) with MLFlow
+4. [Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/tutorial-1st-experiment-sdk-setup?WT.mc_id=data-0000-adpolak)
+5. [Azure KeyVault](https://docs.microsoft.com/azure/key-vault/secrets/quick-create-portal?WT.mc_id=data-0000-adpolak)
+6. [Kubernetes Environment](https://docs.microsoft.com/azure/aks/kubernetes-walkthrough?WT.mc_id=data-0000-adpolak) / [Azure Container Instance](https://docs.microsoft.com/azure/container-instances/container-instances-quickstart-portal?WT.mc_id=data-0000-adpolak)
+7.[Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/text-analytics/quickstarts/python?WT.mc_id=data-0000-adpolak) - for enriching tweet data with sentiment
 
 --------
 
 ## Architecture layers
-* Ingest the data with [Kafka on Azure](https://azure.microsoft.com/en-us/blog/processing-trillions-of-events-per-day-with-apache-kafka-on-azure?WT.mc_id=article-infoq-adpolak)
-* Collect, analyze and process the data with [Databricks](https://docs.microsoft.com/en-us/azure/databricks/scenarios/quickstart-create-databricks-workspace-portal?WT.mc_id=article-geektime-adpolak&tabs=azure-portal)
+* Ingest the data with [Kafka on Azure](https://azure.microsoft.com/blog/processing-trillions-of-events-per-day-with-apache-kafka-on-azure?WT.mc_id=data-0000-adpolak)
+* Collect, analyze and process the data with [Databricks](https://docs.microsoft.com/azure/databricks/scenarios/quickstart-create-databricks-workspace-portal?WT.mc_id=data-0000-adpolak&tabs=azure-portal)
 * Enrich the data - in out case we add sentiment analysis based on tweet text
-* Train, evaluate and [register](https://docs.microsoft.com/en-us/azure/databricks/applications/mlflow/?WT.mc_id=e2eml-infoQ-adpolak) machine learning models
-* [Deploy to production](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-and-where?WT.mc_id=e2eml-infoQ-adpolak&tabs=azcli)
+* Train, evaluate and [register](https://docs.microsoft.com/azure/databricks/applications/mlflow/?WT.mc_id=data-0000-adpolak) machine learning models
+* [Deploy to production](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where?WT.mc_id=data-0000-adpolak&tabs=azcli)
 * [Observability and Monitoring](https://logz.io/blog/azure-monitoring-guide/)
 
 ----------
