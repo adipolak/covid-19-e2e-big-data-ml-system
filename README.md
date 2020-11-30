@@ -1,4 +1,4 @@
-# COVID-19 End to End Big Data and ML system
+# COVID-19 Data Analytics - End to End Big Data and ML system
 This is an example of how you can build your own Covid-19 End to End Big Data and ML- from ingesting stream to deploying ML model in production 
 leveraging kafka, Apache Spark, Spark mllib and cloud services to build your system and produce machine learning model with big data.
 
