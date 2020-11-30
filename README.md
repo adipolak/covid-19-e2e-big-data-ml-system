@@ -12,6 +12,7 @@ for ops.
 4. [Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-1st-experiment-sdk-setup?WT.mc_id=article-infoq-adpolak)
 5. [Azure KeyVault](https://docs.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?WT.mc_id=article-infoq-adpolak)
 6. [Kubernetes Environment](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough?WT.mc_id=article-infoq-adpolak) / [Azure Container Instance](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-portal?WT.mc_id=article-infoq-adpolak)
+
 7.[Cognitive Services](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/quickstarts/python?WT.mc_id=article-infoQ-adpolak) - for enriching tweet data with sentiment
 
 --------
